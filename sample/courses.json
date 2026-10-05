@@ -1,0 +1,13 @@
+{
+  "courses": [
+    {"code":"IM301","name":"Data Analytics","meetings":[{"day":"Mon","start":"09:10","end":"11:00"}]},
+    {"code":"IM314","name":"Systems Analysis","meetings":[{"day":"Tue","start":"13:10","end":"16:00"}]},
+    {"code":"IM325","name":"Database Systems","meetings":[{"day":"Thu","start":"10:10","end":"12:00"}]},
+    {"code":"GE210","name":"Business Communication","meetings":[{"day":"Fri","start":"14:10","end":"16:00"}]}
+  ],
+  "assignments": [
+    {"title":"Database midterm","kind":"exam"},
+    {"title":"Systems analysis proposal","kind":"project"},
+    {"title":"Weekly analytics exercise","kind":"homework"}
+  ]
+}
