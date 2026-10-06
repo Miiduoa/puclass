@@ -1,0 +1,36 @@
+{
+  "courseChoices": [
+    [
+      {
+        "code": "IM301",
+        "name": "Data Analytics",
+        "section": "A",
+        "meetings": [{"day": "Mon", "start": "09:10", "end": "11:00", "building": "Main"}]
+      },
+      {
+        "code": "IM301",
+        "name": "Data Analytics",
+        "section": "B",
+        "meetings": [{"day": "Tue", "start": "09:10", "end": "11:00", "building": "Main"}]
+      }
+    ],
+    [
+      {
+        "code": "IM314",
+        "name": "Systems Analysis",
+        "section": "A",
+        "meetings": [{"day": "Mon", "start": "10:10", "end": "12:00", "building": "RenYuan"}]
+      },
+      {
+        "code": "IM314",
+        "name": "Systems Analysis",
+        "section": "B",
+        "meetings": [{"day": "Mon", "start": "13:10", "end": "15:00", "building": "RenYuan"}]
+      }
+    ]
+  ],
+  "travelMinutes": {
+    "Main": {"RenYuan": 12}
+  },
+  "bufferMinutes": 5
+}
