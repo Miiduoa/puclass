@@ -13,8 +13,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "npm"
-      - run: npm install --package-lock=false
       - run: npm test
       - run: node src/cli.js sample/courses.json --ics /tmp/schedule.ics || test $? -eq 1
       - run: test -s /tmp/schedule.ics
